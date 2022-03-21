@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "app-support-dashboard-prod"
-  }
+    "default": "app-support-dashboard-prod",
+    "staging": "app-support-dashboard-staging"
+  },
+  "targets": {}
 }
