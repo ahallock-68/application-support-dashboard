@@ -37,7 +37,7 @@ jobs:
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_APP_SUPPORT_DASHBOARD_PROD }}"
           channelId: live
           projectId: app-support-dashboard-prod
-    deploy_to_staging:
+  deploy_to_staging:
     if: github.ref == 'refs/heads/staging'
     needs: test_and_build
     runs-on: ubuntu-latest
